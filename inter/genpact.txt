@@ -1,0 +1,107 @@
+
+What is index in database
+
+table -student table
+other -teacher
+
+alter student
+add foreign (teacherid)
+from teacher;
+
+
+varchar(10)
+
+
+employee -id ,name
+salary-empid,salary
+
+give salary of john
+
+
+select employee.salary
+from employee inner join salary
+
+where employee.id =salary.empid
+having employee.name=John;
+
+
+
+code to know how many lines,charac,words in not
+
+
+lines,charac,words=0,0,0
+paras=0
+ptr=open("notebook","r")
+
+
+while(ptr):
+ if ptr=="\n":
+    lines+=1
+
+ if ptr!=None:
+    charac+=1
+ 
+ if ptr==" ":
+    words+=1
+
+  
+  if ptr=="\n" and ptr.\n=" ":
+     paras+=1
+
+
+
+def reverse(word):
+    s=""
+   
+    for i in range(len(word)-1,-1,-1):
+        s+=word[i]
+
+    return s
+
+
+def reverse(sentence):
+    sen=""
+    
+    word="" 
+
+    for i in range(len(sentence)-1,-1,-1):
+        if(ord(sentence[i])>ord('a') and ord(sentence[i])<ord('z'):
+           word+=sentence[i]
+           
+     
+        else:
+           if nltk.contain(word):
+           	sen+=word
+           	word=""
+           word=""
+    
+    return sen
+
+
+
+
+   
+
+  
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

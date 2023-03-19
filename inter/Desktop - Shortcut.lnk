@@ -1,0 +1,6 @@
+table -student table
+other -teacher
+
+alter student
+add foreign (teacherid)
+from teacher;

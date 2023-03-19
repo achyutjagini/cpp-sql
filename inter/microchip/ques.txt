@@ -1,0 +1,33 @@
+
+s="hello"
+
+for i in range(0,len(s)):
+    print(s[:i+1])
+
+
+Given an array print only those elements that do not have duplicates 
+like if its 1 1 2 4 5 5 6 7, output should be 2 4 6 7
+
+arr=[1,1,2,4,5,5,6,7]
+hash1={}
+
+for i in range(len(arr)):
+    if(arr[i] in hash1):
+       hash1[arr[i]]+=1
+    
+    else:
+       hash1[arr[i]]=1
+
+res=[]
+
+for i in hash1:
+    if hash1[i]==1:
+       res.append(i)
+
+print(res)
+       
+
+
+
+
+    
