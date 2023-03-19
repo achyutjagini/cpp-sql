@@ -1,0 +1,15 @@
+This is an exercise that I'm racking my brains to do.
+
+Can anyone tell me the answer and explain the procedure please?
+
+
+
+Employee(id_employee, first name, last name)
+
+Subordinate (subor_id, first name, last name, superior_id_fk)
+
+
+
+Which SQL command should be created to satisfy the following question?
+
+Select the first and last names of all employees who have subordinates with the same name.
