@@ -1,0 +1,55 @@
+
+
+Arraylist arr[]={1,4,5,8,6};
+
+
+#include<vector>
+
+
+vector<int> arr={1,5,4,2,3}
+sort(arr.begin(),arr.end());
+return arr;
+
+
+
+for(int i=0;i<5;i++)
+   {
+for(int j=i+1;j<5;j++)
+{
+if(arr[i]>arr[j])
+   
+   min_ele=arr[j];
+}
+arr[i]=min_ele;
+}
+
+return arr;
+
+
+
+a
+b
+city-common
+
+select a.city,b.city 
+from a inner join b
+where a.city=b.city;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

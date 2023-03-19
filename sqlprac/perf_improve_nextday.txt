@@ -1,0 +1,13 @@
+/* YOUR QUERY GOES HERE
+   Example: SELECT * FROM EMPLOYEE; 
+*/
+
+SELECT Tests.TestId 
+/*form a joined table tests join test*/
+
+FROM   Tests 
+       JOIN Tests AS t 
+       ON t.TestId = Tests.TestId-1
+
+/*TEsts is the next day id  so  its id-1*/
+WHERE  Tests.Marks > t.Marks
